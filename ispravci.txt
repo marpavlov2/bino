@@ -1,0 +1,94 @@
+***
+Opæenito
+***
+Prilikom resetiranja, najbolje je odrediti defaultne vrijednosti (margine, paddinge, line-height, itd.) za minimalno h1, h2, h3 i p tagove. Ti elementi se koriste kroz stranicu i trebali bi imati neki odreðeni defaultni stajling
+
+
+***
+Header
+***
+1. Prevelik razmak izmeðu izbornika i središnjeg teksta. U dizajnu je manje - DONE
+
+2. Definirati jednaku širinu gumbova u headeru kao što je i u dizajnu - DONE
+
+3. Crta ispod "Welcome to bino" može biti kao background h1 naslova. Nema potrebe kreirati u htmlu dodatni div element i sliku samo radi toga. S padding-bottom se pozadina odmakne od donjeg dijela koliko treba - DONE
+
+4. Logo treba biti link (hint: umjesto .logo diva i logo img taga može biti samo jedan a.logo href tag koji æe imati logo kao background)
+Tako se dodatno smanji kolièina potrebnog html-a -DONE
+
+5. Dodati animacije (transition) na linkove i gumbove (animirana promjena boja i animirana promjena pozadine kod gumbova). Odnosi se opæenito na cijeli web. -DONE
+
+
+***
+Boxovi ispod headera
+***
+
+6. Ikona kod "sleek design" malo bježi prema gore. Treba namjestiti. Ista stvar i za ikonu "clean code". Bježi malo u lijevo
+
+7. Maknuti fisni height kod ta ista 4 boxa. Nema potrebe da box bude klikabilan i 50px ispod tog istog boxa. Ako treba odmaknuti, može se sa marginama
+
+
+***
+Our history
+***
+8. Smanjiti razmake da bude kao u dizajnu (naslov poravnat s vrhom monitora, gumb s donjim dijelom monitora). Ne mora biti poravnato na pixel, ali trenutno previše odskaèe od dizajna
+
+
+***
+Our services
+***
+9. Naslov odmaknuti od desne crte kao u dizajnu. Hint: Umjesto korištenja :after elementa za tu crtu, može se koristiti border-right. Treba manje css-a što znaèi brže uèitavanje i manje muke za browser kod renderiranja weba. Ista stvar vrijedi za sve naslove tog tipa. Npr. "Our history"
+
+
+***
+Recent works
+***
+10. Razmaci kod naslova, teksta ispod naslova i crte su u dizajnu manji. Crta je u dizajnu tamnija (ne treba mijenjati ovu ali da obratiš pažnju na takve detalje).
+
+11. Umjesto bold efekta, prilikom hovera na linkove staviti samo crvenu boju. Ne izgleda dobro kada se tekst pomièe kod svakog hovera
+
+12. Složiti animirani prikaz na hover i na mouse out kod radova. Trenutno nestane bez animacije na mouse out (hint: ista situacija koja je bila kod ikona ispod headera)
+
+13. Podesiti paddinge kod naslova. Ako se doda npr. 3 reda sadržaja, tekst se zalijepi za desni rub boxa
+
+
+***
+Our blog
+***
+14. Još smanjiti razmak kod "Our blog" naslova (isto kao i kod toèke 11).
+
+15. div.line i img tag za sliku je nepotreban. Ista stvar kao i kod toèke 3
+
+
+***
+Keep in touch
+***
+16. Još smanjiti razmak kod naslova (isto kao i kod toèke 11 i 15).
+
+17. Fali sjena ispod bijelih boxova u Keep in touch sekciji (hint: box-shadow:...)
+
+18. Dodati mailto link na email adresu
+
+19. Smanjiti razmake izmeðu naslova i teksta u dijelu s kontakt podacima. U dizajnu su manji razmaci
+
+
+***
+Bottom
+***
+20. Boldani tekst treba biti u <strong></strong> tagu pošto tome i služi. Nema smisla koristiti span i onda pisati dodatnu klasu za bold
+
+21. Poveæati razmake izmeðu redova prema dizajnu
+
+
+***
+Footer
+***
+22. Ikone i copyright namjestiti na sredinu
+
+23. Složiti animirani hover kod prelaska preko ikona
+
+
+***
+Dodatno
+***
+24. Kreirati favicon
